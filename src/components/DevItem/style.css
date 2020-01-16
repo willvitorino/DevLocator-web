@@ -1,0 +1,70 @@
+li.dev-item {
+  background-color: white;
+  box-shadow: 0 0 14px 0 rgba(0, 0, 0, 0.02);
+  border-radius: 2px;
+  padding: 1rem;
+}
+
+li.dev-item header {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  /* justify-content: space-between; */
+}
+
+li.dev-item header img {
+  width: 5rem;
+  height: 5rem;
+  border-radius: 50%;
+}
+
+li.dev-item header .user-info {
+  align-self: flex-start;
+  margin-left: 1rem;
+}
+
+.user-info strong {
+  display: block;
+  font-size: 1rem;
+}
+
+.user-info span {
+  font-size: 0.75rem;
+  color: #999;
+  margin-top: 2px;
+}
+
+li.dev-item p {
+  color: #666;
+  font-size: 0.9rem;
+  line-height: 1.5rem;
+  margin: 10px 0px;
+}
+
+li.dev-item a {
+  color: #8e4dff;
+  font-size: 0.9rem;
+  text-decoration: none;
+}
+
+li.dev-item a:hover {
+  color: #5a2ea6;
+}
+
+li.dev-item header .actions {
+  margin-left: auto;
+  margin-bottom: auto;
+  padding: 0.5rem 1rem;
+  border-radius: .25rem;
+  cursor: pointer;
+  border: none;
+  color: white;
+  background-color: #dc3545;
+  border-color: #dc3545;
+  box-shadow: 0;
+}
+li.dev-item header .actions:hover {
+  background-color: #c82333;
+  border-color: #bd2130;
+
+}
